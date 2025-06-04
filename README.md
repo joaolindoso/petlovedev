@@ -1,3 +1,11 @@
+<h1>Petlove Dev</h1>
+
+## Objetivos
+
+App desenvolvido em Next.JS baseado em vídeo-aula para aprendizado.
+Agradecimentos ao canal YouTube "Sujeito Programador".
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
