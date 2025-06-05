@@ -55,14 +55,13 @@ export function Services() {
     emblaApi?.scrollPrev();
   }
 
-    function scrollNext() {
+  function scrollNext() {
     emblaApi?.scrollNext();
   }
 
   return (
     <section className="bg-white py-16">
-      <div className="container mx-auto px-4">
-        <div>
+      <div className="container mx-auto px-4"> 
           <h2 className="text-4xl font-bold mb-12">Serviços</h2>
 
           <div className="relative">
@@ -109,20 +108,19 @@ export function Services() {
             </div>
 
             {/* Botões de navegação */}
-            <button className="absolute left-3 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10" onClick={scrollPrev}>
+            <button className="absolute left-0 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10" onClick={scrollPrev}>
               <ChevronLeft 
                 className="w-6 h-6 text-gray-600"
               />
             </button>
-
-            <button className="absolute right-3 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10" onClick={scrollNext}>
+            
+            <button className="absolute right-0 -translate-y-1/2 translate-x-1/2 top-1/2 z-10 bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10" onClick={scrollNext}>
               <ChevronRight 
                 className="w-6 h-6 text-gray-600"
               />
             </button>
 
-          </div>
-        </div>
+          </div> 
 
       </div>
     </section>

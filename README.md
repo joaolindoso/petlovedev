@@ -9,7 +9,15 @@ Agradecimentos ao canal YouTube "Sujeito Programador".
 
 ## Descrição
 
-xxx
+Trata-se de uma Landing Page, com seções definidas, como:
+
+- Hero
+- About
+- Services
+- Testemonials
+- Clients
+- Footer / Contacts
+
 
 ---
 
