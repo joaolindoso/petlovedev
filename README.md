@@ -5,6 +5,26 @@
 App desenvolvido em Next.JS baseado em vídeo-aula para aprendizado.
 Agradecimentos ao canal YouTube "Sujeito Programador".
 
+---
+
+## Descrição
+
+xxx
+
+---
+
+## Componentes externos utilizados
+
+xxx
+
+- phosphor-icons/react
+- embla-carousel-react
+- lucide-react
+- tailwind css
+
+---
+
+## Informações gerais sobre Next.js
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
