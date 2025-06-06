@@ -4,7 +4,7 @@ import golden from '../../../public/golden.png';
 import primier from '../../../public/primier.png';
 import natural from '../../../public/natural.png';
 import whiskas from '../../../public/whiskas.png';
-import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr';
+import { FacebookLogoIcon, InstagramLogoIcon, TwitterLogoIcon, WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr';
 
 const brands = [
   { name: 'Royal Canin', logo: royal },	
@@ -44,17 +44,58 @@ export function Footer() {
 
         </div>
 
-        <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
-          <div>
-            <h3 className="text-2xl font-semibold mb-2">Pet Shop Dev</h3>
-            <p>Cuidando do seu melhor amigo com amor e dedicação</p>
-            <a 
-              className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" href="#">
-              <WhatsappLogoIcon className="w-5 h-5" />
-                Contato via WhatsApp
-            </a>
+        <footer>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
+
+            <div>
+              <h3 className="text-2xl font-semibold mb-2">Pet Shop Dev</h3>
+              <p className="mb-4">
+                Cuidando do seu melhor amigo com amor e dedicação
+              </p>
+              <a 
+                className="bg-green-500 px-4 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2" href="#">
+                <WhatsappLogoIcon className="w-5 h-5" />
+                  Contato via WhatsApp
+              </a>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
+              <p className="">E-mail: teste@teste.com</p>
+              <p className="">Telefone: (xx) 1234-1234</p>
+              <p className="">Rua xyz, Centro, São Paulo-SP</p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-semibold mb-2">Redes Sociais</h3>
+              <div className="flex gap-4">
+                <a
+                  href="#"
+                  target="_blank">
+                  <FacebookLogoIcon className="w-8 h-8" />
+                </a>
+                <a
+                  href="#"
+                  target="_blank">
+                  <InstagramLogoIcon className="w-8 h-8" />
+                </a>
+                <a
+                  href="#"
+                  target="_blank">
+                  <TwitterLogoIcon className="w-8 h-8" />
+                </a>
+                
+              </div>
+            </div>
+
           </div>
 
+          <div className="text-center mt-12">
+            <p>
+              © 2025 Pet Shop. Todos os direitos reservados.
+            </p>
+          </div>
 
         </footer>
 
